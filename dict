@@ -1,0 +1,4 @@
+#!/bin/bash
+word="$1"
+export word
+python 	/bin/mean.py "word"
